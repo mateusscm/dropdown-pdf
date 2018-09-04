@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doação</title>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js"></script>
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript" src="js.js" ></script>
+</head>
+
+<header> 
+	<div id="navegacao"> 
+		<nav> 
+			<ul>
+				<h1>SISTEMA PARA DOAÇÃO DE PETS</h1>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<body>
+	<div class="dropdown">
+	  <button onclick="myFunction()" class="dropbtn">Cadastro</button>
+	  	<div id="myDropdown" class="dropdown-content">
+	  			<form class="text">
+			 		<fieldset>
+			  			<legend>Dados de Doador</legend>
+						  <span class="custom" >Name:</span> <input class="inputop" id="nome" type="text" required>
+						  <span class="custom" >Email:</span> <input class="inputop" id="email" type="text" required>
+						  <span class="custom" >Data de Nascimento:</span> <input class="inputop" id="data" type="text" required>
+						  <span class="custom" >Endereco:</span> <input id="endereco" class="inputop" type="text" required>
+						  <span class="custom">CPF:</span> <input id="cpf" class="inputop" type="text" required>
+						  <span class="custom">Telefone:</span> <input id="telefone" class="inputop" type="text" required>
+			 		</fieldset>
+			 		<hr>
+			 		<fieldset>
+			  			<legend>Dados do Animal</legend>
+						  <span class="custom">Name:</span> <input id="a_nome" class="inputop"  type="text" required>
+						  <span class="custom">Raça:</span> <input id="raca" class="inputop" type="text" required>
+						  <span class="custom">Data de Nascimento:</span> <input id="a_data" class="inputop" type="text" required>
+						  <span class="custom">Nº Carterinha:</span> <input id="carterinha" class="inputop" type="text" required>
+						  <span class="custom">Porte:</span> <input id="porte" class="inputop" type="text" required>
+			 		</fieldset>
+
+			 		<div class="teste">
+			 		<br>
+			 		<button id="pdf">Gerar PDF</button>
+			 		</div>
+				</form>
+				<br>
+				<br>
+
+		</div>
+	</div>
+
+	
+
+</body>
+</html>

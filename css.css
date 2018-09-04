@@ -1,0 +1,112 @@
+.custom{
+	width: 40%;
+	margin: 5px;
+	display: inline-block;
+}
+
+.inputop{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/*------------------------------------------------------------*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px grey;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.teste{
+	text-align: center;
+}
+
+#pdf{
+	color: #ffff;
+	background-color: #3498DB;
+	border-style: none;
+	border: transparent;
+	font-family: arial;
+	text-shadow: 2px 2px 2px grey;
+	font-size: 150%;
+
+}
+
+.text{
+	font-family: century gothic;
+}
+
+header{
+	margin: 0;
+	width: 100%
+}
+
+#navegacao{
+	font-family: Century gothic;
+	text-align: center;
+	font-size: 150%;
+	background-color: #3498DB;
+	text-shadow: 2px 2px 2px grey;
+}
+
+#navegacao ul, h1{
+	margin: 0;
+	font-family: Century gothic;
+	text-align: center;
+	font-size: 150%;
+	background-color: #3498DB;
+	text-shadow: 2px 2px 2px grey;
+}
+
+body{
+	margin: 0;
+}
+
+hr{
+	border-width: 5px;
+	border-color: #008B8B;
+	border-style: groove;
+	width: auto;
+}
